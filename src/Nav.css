@@ -1,0 +1,15 @@
+.Nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: space-around;
+    border-bottom: 1px solid black;
+}
+
+.Nav-link {
+    margin: 1rem;
+}
+
+.active-link {
+    border-bottom: 1px cyan;
+    color: black;
+}

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import DogList from './DogList';
 import DogDetails from './DogDetails';
+import Nav from './Nav';
 import { Route, Switch } from "react-router-dom";
 import './App.css';
 
@@ -42,6 +43,7 @@ class App extends Component{
   render() {
     return (
       <div className="App">
+        <Nav dogs={this.props.dogs}/>
         <Switch>
           <Route 
             exact
