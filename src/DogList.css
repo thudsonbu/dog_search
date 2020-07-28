@@ -1,0 +1,15 @@
+
+.DogList {
+    color: #44d4f8;
+}
+
+.DogList-title {
+    font-size: 7rem;
+    text-align: center;
+}
+
+.DogList-dogs {
+    display: flex;
+    justify-content: space-around;
+}
+
