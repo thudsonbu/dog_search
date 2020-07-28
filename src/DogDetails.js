@@ -21,7 +21,7 @@ class DogDetails extends Component {
                         <div className="DogDetails-facts">
                             <ul>
                                 {dog.facts.map(fact => (
-                                    <li>{fact}</li>
+                                    <li className="DogDetails-listitem">{fact}</li>
                                 ))}
                             </ul>
                         </div>

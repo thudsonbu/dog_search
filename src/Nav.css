@@ -2,14 +2,22 @@
     display: flex;
     justify-content: space-around;
     align-items: space-around;
-    border-bottom: 1px solid black;
+    background-color: lightcoral;
 }
 
 .Nav-link {
+    color: white;
     margin: 1rem;
+    transition: .25s ease;
+    text-shadow: 1px 1px 3px black;
+}
+
+.Nav-link:hover {
+    color: white;
+    text-decoration: none;
+    transform: scale(1.2);
 }
 
 .active-link {
-    border-bottom: 1px cyan;
-    color: black;
+    color: lightgrey;
 }
