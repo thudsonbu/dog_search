@@ -14,15 +14,17 @@ class DogDetails extends Component {
         }
         return(
             <div className="DogDetails">
-                <img src={dog.src} className="DogDetails-image"></img>
-                <div className="DogDetails-text">
-                    <h1>{dog.name}, {dog.age}</h1>
-                    <div className="DogDetails-facts">
-                        <ul>
-                            {dog.facts.map(fact => (
-                                <li>{fact}</li>
-                            ))}
-                        </ul>
+                <div className="DogDetails-card">
+                    <img src={dog.src} className="DogDetails-image"></img>
+                    <div className="DogDetails-text">
+                        <h1>{dog.name}, {dog.age}</h1>
+                        <div className="DogDetails-facts">
+                            <ul>
+                                {dog.facts.map(fact => (
+                                    <li>{fact}</li>
+                                ))}
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
